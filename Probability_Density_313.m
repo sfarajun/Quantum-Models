@@ -1,7 +1,7 @@
 %% Part 1
-%% Question 1
+%% Simulation 1
 
-%In this question I am plotting the Probability density for hydrogen and
+%In this simulation I am plotting the Probability density for hydrogen and
 %helium of given energy values n
 
 %choose x and stepsize 
@@ -33,7 +33,7 @@ ylabel("S Orbit");
 
 
 
-%% Question 2
+%% Simulation 2
 %In this question I am creating 2D and 3D plots for the first 4 hydrogen
 %wavefunctions
 

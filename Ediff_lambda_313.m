@@ -1,8 +1,9 @@
 %% Energy Diff and Wavelength Emitted
-%In this problem I am simulating the energy difference between energy/orbital levels in
+%In this code I am simulating the energy difference between energy/orbital levels in
 %hydrogen, and the wavelength of the light emitted when an electron
 %transitions from a higher energy level to a lower one.
-%For this problem, I used the folowing equations:
+
+%Note, the folowing equations are used:
 %   Energy_diff = ( ((q^4 * m)/(2* K^2 * hbar^2)) * ((1/(n1^2)) - (1/(n2^2))))/1.6e-19
 %   lambda = ((2*pi*hbar*c)/(1.6e-19 * Ediff)) * 1e9
     

@@ -1,9 +1,9 @@
 %% Infinite Well
 
-%% Question 1
-%In this problem I am simulating the energy levels of an electron in an infinite 
+%% Simulation 1
+%In this simulation I am simulating the energy levels of an electron in an infinite 
 %potential energy well of length L that has infinitely high barriers.
-%For this problem, I used the folowing equations:
+%Note, the folowing equations are used:
 %   En = ((n^2)*(hbar^2)*(pi^2))/(2*m*(L^2));
 
 l1 = 1*10^-9;
@@ -21,10 +21,11 @@ for i = 1:4
     fprintf("n=%d\t %d \t %d\n", i, En_l1(i), En_l2(i));
 end
 
-%% Question 2
-%In this problem I am graphing the probability density for electrons in the 
+
+%% Simulation 2
+%In this simulation I am graphing the probability density for electrons in the 
 %1st to 4th energy states for a well of Length L=2nm.
-%For this problem, I used the folowing equations:
+%Note, the folowing equations are used:
 %   wave_func = (sqrt(2/L))*sin((n*pi*x)/L);
 %   prob_density = wave_func.^2;
 
@@ -52,10 +53,10 @@ title('n=4: x vs prob-dens')
 
 
 
-%% Question 3
-%In this problem I am calculate the probability of finding an electron between two
+%% Simulation 3
+%In this simulation I am calculate the probability of finding an electron between two
 %points in the well L1 and L2, for an infinite well of length L.
-%For this problem, I used the folowing equations:
+%Note, the folowing equations are used:
 %   wave_func = (sqrt(2/L))*sin((n*pi*x)/L);
 %   prob_density = wave_func.^2;
 %   prob = int(prob_density, x, L1, L2);
@@ -79,11 +80,11 @@ fprintf("n=2, L1=.9 (nm), L2=1.1 (nm): prob = %.3f%%\n\n", prob4*100);
 syms d
 prob4 = Prob(d, 0, .25*10^-9)
 
-%% Question 4
-%For this problem, I designed a quantum well that can be used as the photon 
+%% Simulation 4
+%For this simulation I designed a quantum well that can be used as the photon 
 %detector at the end of the fiber by calculating the length L of the quantum 
 %well.
-%The folowing equations were used:
+%Note, the folowing equations are used:
 %   L = sqrt(((hbar^2)*(pi^2)*((n2^2)-(n1^2)))/(2*m*Ediff));
 
 %photon energy (eV)
