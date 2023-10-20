@@ -1,6 +1,8 @@
 %% Part 1
 %MOSFET
 
+%This code simulates a MOSFET
+
 %ask for inputs
 NA = input('Enter Substrate Doping: ');
 L = input('Enter Gate Length: ');

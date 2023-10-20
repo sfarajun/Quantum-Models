@@ -1,12 +1,13 @@
 %% Finite Well
-%For this question I am using newtons method in order to find the kn
+%In this simulation, I am using newtons method in order to find the kn
 %value and the allowed energy values for a finite well of desired potential
 %energy depth, length, and energy level
 
-%range from x = 1e-9:1e-11:10e-9;
-%depth from 1eV to 50eV
-%tan(Kn*L/2) = sqrt((B/Kn)^2 - 1); n = 1,3,5,...
-%-cot(Kn*L/2) = sqrt((B/Kn)^2 - 1); n = 2,4,6,...
+%Note, the folowing equations are used:
+%   range from x = 1e-9:1e-11:10e-9;
+%   depth from 1eV to 50eV
+%   tan(Kn*L/2) = sqrt((B/Kn)^2 - 1); n = 1,3,5,...
+%   -cot(Kn*L/2) = sqrt((B/Kn)^2 - 1); n = 2,4,6,...
 
 % Assign V Physical Constants
 Kb=1.38065e-23; %Boltzmann Constant in Joules/degree K

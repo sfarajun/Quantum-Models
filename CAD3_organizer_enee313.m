@@ -1,10 +1,9 @@
-% ENEE 313
 % Sahar Farajun
-%Matlab code for ENEE 313 Quantum and Device Physics Simulator
+%Matlab code for Quantum and Device Physics Simulator
 
 
 fprintf('\n')
-fprintf('ENEE 313 Quantum and Device Physics Simulator \n')
+fprintf('Quantum and Device Physics Simulator \n')
 
 fprintf('\n')
 fprintf('Contents: \n')

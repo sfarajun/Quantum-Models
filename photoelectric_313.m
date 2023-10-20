@@ -1,8 +1,9 @@
 %% Photoelectric effect
-%% Question 1
-%In this problem I am simulating the energy of electrons that are emitted from 
+
+%% Simulation 1
+%In this simulation I am simulating the energy of electrons that are emitted from 
 %metal surfaces that are hit by light ranging from 3000nm (IR) to 100nm (UVC). 
-%For this problem, I used the folowing equations:
+%Note, the folowing equations are used:
 %   freq(i) = c/(lambda(i));
 %   Electron_energy(j, i) = (h*freq(i) - E0*(1.6e-19))/1.6e-19;
 
