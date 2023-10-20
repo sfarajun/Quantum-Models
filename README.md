@@ -5,7 +5,7 @@
 
 
 <div align="center">
-  <img src="electromagnetism_image.png" alt="Electromagnetism Image" height="300">
+  <img src="res/electromagnetism_image.png" alt="Electromagnetism Image" height="300">
 </div>
 
 ---
@@ -26,47 +26,47 @@ Quantum Wells, Wave Functions and Probability Densities, PN Junctions, and MOSFE
 
 Below are the different MATLAB simulation files included.
 - **Atomic Radii**: Simulation of radii of atoms and ions when their electrons are at energy states 1-4. The folowing equations are used:
-\[ \footnotesize r = \frac{{K \times (n^2) \times (\hbar^2)}}{{\text{{atomic\_number}} \times (q^2) \times m}}. \]
+<div align="center">
+  <img src="res/1st.png" alt="Electromagnetism Image" height="45>
+</div>
+
 
 - **Ediff and wavelengths**: Simluation of the energy difference between energy/orbital levels in hydrogen, and the wavelength of the light emitted when an electron transitions from a higher energy level to a lower one. The folowing equations are used:
 
-\[ \footnotesize \text{Energy\_diff} = \frac{{\left(\frac{{(q^4 \times m)}}{{2 \times K^2 \times \hbar^2}}\right) \times \left(\frac{1}{{n_1^2}} - \frac{1}{{n_2^2}}\right)}}{{1.6 \times 10^{-19}}}
-\]
-
-\[ \footnotesize \lambda = \left(\frac{{2 \pi \times \hbar \times c}}{{1.6 \times 10^{-19} \times \text{Energy\_diff}}}\right) \times 10^9 \]
-
+<div align="center">
+  <img src="res/2nd.png" alt="Electromagnetism Image" height="110>
+</div>
 
 - **Photoelectric Effect**: Simulation of the energy of electrons that are emitted from metal surfaces that are hit by light ranging from 3000nm (IR) to 100nm (UVC). The folowing equations are used:
-\[ \footnotesize \text{freq}(i) = \frac{c}{{\lambda(i)}}
-\]
-
-\[ \footnotesize \text{Electron\_energy}(j, i) = \frac{{(h \times \text{freq}(i) - E_0 \times (1.6 \times 10^{-19}))}}{{1.6 \times 10^{-19}}}
-\]
+<div align="center">
+  <img src="res/3rd.png" alt="Electromagnetism Image" height="80>
+</div>
 
 - **Infinite Quantum Well**: Simulation of the energy levels of an electron in an infinite potential energy well of length L that has infinitely high barriers. The folowing equations are used:
 
-\[ \footnotesize E_n = \frac{{(n^2) \times (\hbar^2) \times (\pi^2)}}{{2 \times m \times (L^2)}} \]
+<div align="center">
+  <img src="res/4th.png" alt="Electromagnetism Image" height="75>
+</div>
 
 The probability density for electrons in the 1st to 4th energy states for a well of Length L=2nm. The folowing equations are used:
 
-\[ \footnotesize \text{wave\_func} = \left(\frac{{\sqrt{2}}}{L}\right) \times \sin\left(\frac{{n \pi x}}{L}\right) \]
-
-\[ \footnotesize \text{prob\_density} = \text{wave\_func}^2 \]
-
+<div align="center">
+  <img src="res/5th.png" alt="Electromagnetism Image" height="100>
+</div>
 
 The probability of finding an electron between two points in the well L1 and L2, for an infinite well of length L. The folowing equations are used:
 
-\[ \footnotesize \text{wave\_func} = \left(\frac{{\sqrt{2}}}{L}\right) \times \sin\left(\frac{{n \pi x}}{L}\right) \]
+<div align="center">
+  <img src="res/6th.png" alt="Electromagnetism Image" height="150>
+</div>
 
-\[ \footnotesize \text{prob\_density} = \text{wave\_func}^2 \]
-
-\[ \footnotesize \text{prob} = \int_{{L_1}}^{{L_2}} \text{prob\_density} \, dx \]
 
 
 Simulation of a quantum well that can be used as the photon detector at the end of the fiber by calculating the length L of the quantum well. The folowing equations are used:
 
-\[ L = \sqrt{\frac{{(\hbar^2)(\pi^2)((n_2^2)-(n_1^2))}}{2 \times m \times \text{Ediff}}} \]
-
+<div align="center">
+  <img src="res/7th.png" alt="Electromagnetism Image" height="75>
+</div>
 
 - **Probability Density and Wave Functions in 2D/3D**:
 Simulations of the Probability density for hydrogen and helium of given energy values n. 2D and 3D plots for the first 4 hydrogen wavefunctions. Classic wavefunction equations for the different orbitals and values of n, m, and l were used in these simulations.
