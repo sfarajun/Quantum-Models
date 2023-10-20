@@ -25,17 +25,16 @@ Quantum Wells, Wave Functions and Probability Densities, PN Junctions, and MOSFE
 # 👾 Simulations
 
 Below are the different MATLAB simulation files included.
-- **Atomic Radii**: Simulation of radii of atoms and ions when their electrons are at energy states 1-4. The folowing equations are used:
+- **Atomic Radii**: Simulation of radii of atoms and ions when their electrons are at energy states 1-4. The following equations are used:
 <div align="center">
-  <img src="res/1st.png" alt="Electromagnetism Image" height="45>
+  <img src="res/1st.png" alt="Electromagnetism Image" height="45">
 </div>
 
-
-- **Ediff and wavelengths**: Simluation of the energy difference between energy/orbital levels in hydrogen, and the wavelength of the light emitted when an electron transitions from a higher energy level to a lower one. The folowing equations are used:
-
+- **Ediff and wavelengths**: Simulation of the energy difference between energy/orbital levels in hydrogen, and the wavelength of the light emitted when an electron transitions from a higher energy level to a lower one. The following equations are used:
 <div align="center">
-  <img src="res/2nd.png" alt="Electromagnetism Image" height="110>
+  <img src="res/2nd.png" alt="Electromagnetism Image" height="110">
 </div>
+
 
 - **Photoelectric Effect**: Simulation of the energy of electrons that are emitted from metal surfaces that are hit by light ranging from 3000nm (IR) to 100nm (UVC). The folowing equations are used:
 <div align="center">
