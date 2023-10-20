@@ -38,25 +38,25 @@ Below are the different MATLAB simulation files included.
 
 - **Photoelectric Effect**: Simulation of the energy of electrons that are emitted from metal surfaces that are hit by light ranging from 3000nm (IR) to 100nm (UVC). The folowing equations are used:
 <div align="center">
-  <img src="res/3rd.png" alt="Electromagnetism Image" height="80>
+  <img src="res/3rd.png" alt="Electromagnetism Image" height="80">
 </div>
 
 - **Infinite Quantum Well**: Simulation of the energy levels of an electron in an infinite potential energy well of length L that has infinitely high barriers. The folowing equations are used:
 
 <div align="center">
-  <img src="res/4th.png" alt="Electromagnetism Image" height="75>
+  <img src="res/4th.png" alt="Electromagnetism Image" height="75">
 </div>
 
 The probability density for electrons in the 1st to 4th energy states for a well of Length L=2nm. The folowing equations are used:
 
 <div align="center">
-  <img src="res/5th.png" alt="Electromagnetism Image" height="100>
+  <img src="res/5th.png" alt="Electromagnetism Image" height="100">
 </div>
 
 The probability of finding an electron between two points in the well L1 and L2, for an infinite well of length L. The folowing equations are used:
 
 <div align="center">
-  <img src="res/6th.png" alt="Electromagnetism Image" height="150>
+  <img src="res/6th.png" alt="Electromagnetism Image" height="150">
 </div>
 
 
@@ -64,7 +64,7 @@ The probability of finding an electron between two points in the well L1 and L2,
 Simulation of a quantum well that can be used as the photon detector at the end of the fiber by calculating the length L of the quantum well. The folowing equations are used:
 
 <div align="center">
-  <img src="res/7th.png" alt="Electromagnetism Image" height="75>
+  <img src="res/7th.png" alt="Electromagnetism Image" height="75">
 </div>
 
 - **Probability Density and Wave Functions in 2D/3D**:
