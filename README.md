@@ -25,51 +25,68 @@ Quantum Wells, Wave Functions and Probability Densities, PN Junctions, and MOSFE
 # 👾 Simulations
 
 Below are the different MATLAB simulation files included.
+
+<div align="left">
+
 - **Atomic Radii**: Simulation of radii of atoms and ions when their electrons are at energy states 1-4. The following equations are used:
-<div align="center">
-  <img src="res/1st.png" alt="Electromagnetism Image" height="45">
+  <div align="center">
+    <img src="res/1st.png" alt="Electromagnetism Image" height="45">
+  </div>
 </div>
+
+
+
+<div align="left">
 
 - **Ediff and wavelengths**: Simulation of the energy difference between energy/orbital levels in hydrogen, and the wavelength of the light emitted when an electron transitions from a higher energy level to a lower one. The following equations are used:
-<div align="center">
-  <img src="res/2nd.png" alt="Electromagnetism Image" height="110">
+  <div align="center">
+    <img src="res/2nd.png" alt="Electromagnetism Image" height="110">
+  </div>
 </div>
 
+
+<div align="left">
 
 - **Photoelectric Effect**: Simulation of the energy of electrons that are emitted from metal surfaces that are hit by light ranging from 3000nm (IR) to 100nm (UVC). The folowing equations are used:
-<div align="center">
-  <img src="res/3rd.png" alt="Electromagnetism Image" height="80">
-</div>
-
-- **Infinite Quantum Well**: Simulation of the energy levels of an electron in an infinite potential energy well of length L that has infinitely high barriers. The folowing equations are used:
-
-<div align="center">
-  <img src="res/4th.png" alt="Electromagnetism Image" height="75">
-</div>
-
-The probability density for electrons in the 1st to 4th energy states for a well of Length L=2nm. The folowing equations are used:
-
-<div align="center">
-  <img src="res/5th.png" alt="Electromagnetism Image" height="100">
-</div>
-
-The probability of finding an electron between two points in the well L1 and L2, for an infinite well of length L. The folowing equations are used:
-
-<div align="center">
-  <img src="res/6th.png" alt="Electromagnetism Image" height="150">
+  <div align="center">
+    <img src="res/3rd.png" alt="Electromagnetism Image" height="80">
+  </div>
 </div>
 
 
 
-Simulation of a quantum well that can be used as the photon detector at the end of the fiber by calculating the length L of the quantum well. The folowing equations are used:
 
-<div align="center">
-  <img src="res/7th.png" alt="Electromagnetism Image" height="75">
+<div align="left">
+
+- **Infinite Quantum Well**: Simulation of the energy levels of an electron in an infinite potential energy well of length L that has infinitely high barriers. The following equations are used:
+  
+  <div align="center">
+    <img src="res/4th.png" alt="Electromagnetism Image" height="50">
+  </div>
+  
+  The probability density for electrons in the 1st to 4th energy states for a well of Length L=2nm. The following equations are used:
+  
+  <div align="center">
+    <img src="res/5th.png" alt="Electromagnetism Image" height="80">
+  </div>
+  
+  The probability of finding an electron between two points in the well L1 and L2, for an infinite well of length L. The following equations are used:
+  
+  <div align="center">
+    <img src="res/6th.png" alt="Electromagnetism Image" height="150">
+  </div>
+
+  Simulation of a quantum well that can be used as the photon detector at the end of the fiber by calculating the length L of the quantum well. The following equations are used:
+  
+  <div align="center">
+    <img src="res/7th.png" alt="Electromagnetism Image" height="50">
+  </div>
 </div>
+
+
 
 - **Probability Density and Wave Functions in 2D/3D**:
 Simulations of the Probability density for hydrogen and helium of given energy values n. 2D and 3D plots for the first 4 hydrogen wavefunctions. Classic wavefunction equations for the different orbitals and values of n, m, and l were used in these simulations.
-
 
 - **Finite Quantum Well**: A simulation using Newtons Method to find the kn value and the allowed energy values for a finite well of desired potential energy depth, length, and energy level. I found out if the energy level was even or odd, and using that used the appropriate equations for even and odd parity.
 
